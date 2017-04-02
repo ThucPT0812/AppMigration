@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Australian Skilled Migration</string>
+
+    <string name="description_level_eng">
+        Competent\n
+        - You hold a valid passport issued by the United Kingdom, the United States of America, Canada, New Zealand or the Republic of Ireland and you are a citizen of that country.\n
+        - You have achieved a score of at least 6 in each of the four test components (speaking, reading, listening and writing) in an International English Language Testing System (IELTS) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a score of at least \'B\' in each of the four test components of an Occupational English Test (OET) that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved the following minimum test scores in each of the four test components: 12 for listening, 13 for reading, 21 for writing and 18 for speaking, in a Test of English as a Foreign Language internet-based test (TOEFL iBT) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 50 in each of the four test components (speaking, reading, listening and writing) in a Pearson Test of English (PTE) Academic that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 169 in each of the four test components (speaking, reading, listening and writing) in a Cambridge English: Advanced (CAE) test that has been undertaken on or after 1 January 2015 and prior to lodging the visa application.\n\n
+        Proficient\n
+        - You have achieved a score of at least 7 in each of the four test components (speaking, reading, listening and writing) in an International English Language Testing System (IELTS) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a score of at least \'B\' in each of the four test components of an Occupational English Test (OET) that has been undertaken in the three years immediately prior to lodging the visa application.
+        - You have achieved the following minimum test scores in each of the four test components: 24 for listening , 24 for reading, 27 for writing and 23 for speaking, in a Test of English as a Foreign Language internet-based test (TOEFL iBT) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 65 in each of the four test components (speaking, reading, listening and writing) in a Pearson Test of English (PTE) Academic that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 185 in each of the four test components (speaking, reading, listening and writing) in a Cambridge English: Advanced (CAE) test that has been undertaken on or after 1 January 2015 and prior to lodging the visa application.\n\n
+        Superior\n
+        - You have achieved a score of at least 8 in each of the four test components (speaking, reading, listening and writing) in an International English Language Testing System (IELTS) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a score of \'A\' in each of the four test components of an Occupational English Test (OET) that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved the following minimum test scores in each of the four test components: 28 for listening, 29 for reading, 30 for writing and 26 for speaking, in a Test of English as a Foreign Language internet-based test (TOEFL iBT) test that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 79 in each of the four test components (speaking, reading, listening and writing) in a Pearson Test of English (PTE) Academic that has been undertaken in the three years immediately prior to lodging the visa application.\n
+        - You have achieved a test score of at least 200 in each of the four test components (speaking, reading, listening and writing) in a Cambridge English: Advanced (CAE) test that has been undertaken on or after 1 January 2015 and prior to lodging the visa application.
+    </string>
+
+    <string name="message_total">
+        You need at least a total score of 60 points to be eligible for a subclass 189, 190 or 489 visa. From your answers, you may have a total point of 60 points for visa subclass 189; 65 points for visa subclass 190 and 70 points for visa subclass 489.\n
+        If you are interested in applying for these visas, please visit our website at ..... for a step-by-step guide to \"do it yourself\" or contact us at ... to receive assistance from our professional migration agents.
+    </string>
+
+    <string name="about_message1">
+        What is OZ skilled Migration App?
+    </string>
+
+    <string name="about_message2">
+        OZ Skilled Migration App is an application about migration to Australia, focusing on skilled visas. It provides you a very convenient and quick way to check your eligibility for these visas. Through answering a set of up to five questions, you will be provided with a total score and a suggestion as to whether you can apply for a subclass 189, 190 or 489. Further instructions to do-it-yourself or to be contacted by one of our registered migration agents to apply for these visas will also be offered if required.
+    </string>
+
+    <string name="about_message3">
+        Why Oz Skilled Migration App?
+    </string>
+
+    <string name="about_message4">
+        - Free to download\n
+        - Quick and convenient\n
+        - Comprehensive list of skilled occupations, including specialisations and alternative titles\n
+        - Find occupations by keywords or ANZSCO Codes.\n
+        - No further commitment or charge required.\n
+        - Instructions to do-it-yourself or receiving assistance from registered migration agent if required.\n
+    </string>
+
+
+
+</resources>

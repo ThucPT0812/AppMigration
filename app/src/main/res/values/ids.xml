@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item type="id" name="ROOT_VIEW_ID" />
+
+    <!-- layout Home -->
+    <item type="id" name="home_icon_flag" />
+    <item type="id" name="home_icon_logo" />
+    <item type="id" name="home_tv_full_name" />
+    <item type="id" name="home_ico_full_name" />
+    <item type="id" name="home_edt_full_name" />
+    <item type="id" name="home_tv_phone" />
+    <item type="id" name="home_ico_phone" />
+    <item type="id" name="home_edt_phone" />
+    <item type="id" name="home_tv_email" />
+    <item type="id" name="home_ico_email" />
+    <item type="id" name="home_edt_email" />
+    <item type="id" name="home_tv_work" />
+    <item type="id" name="home_edt_work" />
+    <item type="id" name="home_btn_continues" />
+    <item type="id" name="home_tv_county_code" />
+    <item type="id" name="home_edt_country_code" />
+
+    <!-- layout QuestionData -->
+    <item type="id" name="question_tv_title" />
+    <item type="id" name="question_scroll" />
+    <item type="id" name="question_tv_question" />
+    <item type="id" name="question_tv_answer" />
+    <item type="id" name="question_edt_answer" />
+    <item type="id" name="question_btn_back" />
+    <item type="id" name="question_btn_next" />
+    <item type="id" name="question_image_question" />
+    <item type="id" name="question_tv_description" />
+    <item type="id" name="question_dialog" />
+    <item type="id" name="question_postcode" />
+    <item type="id" name="question_edt_work" />
+    <item type="id" name="spinner_row_view_text" />
+    <item type="id" name="question_tv_point" />
+    <item type="id" name="question_btn_point" />
+    <item type="id" name="question_chk_not_remember"/>
+    <item type="id" name="question_dialog_btn_ok" />
+
+    <!-- layout totall -->
+    <item type="id" name="total_text_point" />
+    <item type="id" name="total_send" />
+    <item type="id" name="total_messeage" />
+    <item type="id" name="total_messeage_point" />
+    <item type="id" name="dialog_tv_messeage" />
+    <item type="id" name="total_dialog_popup" />
+    <item type="id" name="total_dialog_popup_btn_ok" />
+    <item type="id" name="total_dialog_popup_btn_cancel" />
+    <item type="id" name="total_back" />
+
+    <!-- layout dialog-->
+    <item type="id" name="l_main_dialog_select" />
+    <item type="id" name="dialog_select_header" />
+    <item type="id" name="dialog_line" />
+    <item type="id" name="dialog_select_content" />
+    <item type="id" name="dialog_select_bt_accept"/>
+    <!-- Layout about -->
+
+    <item type="id" name="about_icon_flag"/>
+    <item type="id" name="about_tv_description" />
+    <item type="id" name="about_tv_description1" />
+    <item type="id" name="about_tv_description2" />
+    <item type="id" name="about_tv_description3" />
+    <item type="id" name="about_btn_take_test" />
+
+    <!-- Layout spinner row -->
+    <item type="id" name="spinner_row_text" />
+</resources>

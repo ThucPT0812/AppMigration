@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             xmlns:tmall="http://schemas.android.com/apk/res-auto"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:id="@id/ROOT_VIEW_ID"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:baselineAligned="false"
+             android:orientation="vertical"
+             android:background="@drawable/aus"
+             android:scaleType="fitXY"
+             tools:context=".screen.Total" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layy50"
+            android:gravity="center"
+            android:paddingLeft="@dimen/layx15"
+            android:paddingRight="@dimen/layx15"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_23"
+                android:text="THANKS !"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:layout_width="@dimen/layx200"
+                android:layout_height="@dimen/layy150"
+                android:layout_marginTop="@dimen/layx10"
+                android:background="@drawable/australia_flag"
+                />
+
+            <TextView
+                android:id="@id/total_text_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layx10"
+                android:textSize="@dimen/text_size_20"
+                android:text="TOTAL POINT:"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@id/total_messeage_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layx10"
+                android:textSize="@dimen/text_size_20"
+                android:text=""
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/total_messeage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/layx10"
+            android:layout_above="@id/total_send"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/layx10"
+            android:textSize="@dimen/text_size_18"
+            android:text="Would you like the results to be sent to you?"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@id/total_send"
+            android:layout_width="@dimen/layx180"
+            android:layout_height="@dimen/layy50"
+            android:paddingLeft="@dimen/layx50"
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/layy20"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/layx10"
+            android:text="SEND"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14"
+            android:background="@drawable/bg_btn_right"
+            />
+
+        <Button
+            android:id="@id/total_back"
+            android:layout_width="@dimen/layx180"
+            android:layout_height="@dimen/layy50"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/layx50"
+            android:layout_gravity="right"
+            android:layout_marginBottom="@dimen/layy20"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/layx10"
+            android:text="ANSWERS AGAIN"
+            android:textSize="@dimen/text_size_14"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_left"
+            />
+
+        <include
+            android:id="@id/total_dialog_popup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/dialog_total_messeage"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

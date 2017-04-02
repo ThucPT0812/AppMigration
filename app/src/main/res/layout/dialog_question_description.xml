@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@id/l_main_dialog_select"
+             android:background="#40000000"
+             android:onClick="closeDialogPopupQuestionDescription"
+             android:clickable="true"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/layx400"
+        android:layout_height="@dimen/layx600"
+        android:layout_gravity="center"
+        android:background="@drawable/l_border_layout"
+        android:padding="@dimen/layx10"
+        android:gravity="center"
+        >
+
+           <ScrollView
+               android:layout_width="match_parent"
+               android:layout_height="@dimen/layx500"
+               android:layout_above="@id/question_dialog_btn_ok"
+               >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 >
+                 <TextView
+                     android:id="@id/question_tv_description"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textColor="@color/black"
+                     android:textSize="@dimen/text_size_22"
+                     android:text="@string/description_level_eng"
+                     />
+
+             </LinearLayout>
+           </ScrollView>
+
+        <Button
+            android:layout_width="@dimen/layx160"
+            android:layout_height="@dimen/layy50"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="OK"
+            android:paddingLeft="@dimen/layx30"
+            android:textSize="@dimen/text_size_18"
+            android:background="@drawable/d_selector_button"
+            android:id="@id/question_dialog_btn_ok"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/layx10"
+            />
+        </RelativeLayout>
+
+</FrameLayout>

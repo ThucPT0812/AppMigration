@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/layx5"
+                android:background="@color/gray1">
+
+    <TextView
+        android:id="@id/spinner_row_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_23"
+        android:text="Spinner row text"
+        android:padding="@dimen/layx5"
+        android:background="@drawable/l_border_background_spinner"
+        />
+
+</RelativeLayout>
